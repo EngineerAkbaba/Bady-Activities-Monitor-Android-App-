@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Health</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_timer">TimerActivity</string>
+    <string name="title_activity_select_act">SelectActActivity</string>
+    <string name="title_activity_prev_act">PrevActActivity</string>
+    <string name="title_activity_tab_select">TabSelectActivity</string>
+    <string name="previous_activity">Previous Activity</string>
+    <string name="buttonStart">Baslat</string>
+    <string name="buttonStop">Durdur</string>
+    <string-array name="selectList">
+        <item >Kosu</item>
+        <item >Bisiklet</item>
+        <item >Futbol</item>
+        <item >Ders Dinleme</item>
+        <item >Sinema</item>
+        <item >Musik</item>
+        <item >Yemek Yemek</item>
+        <item >Uyumak</item>
+    </string-array>
+
+</resources>

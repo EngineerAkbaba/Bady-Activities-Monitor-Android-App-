@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+	
+
+	    <ListView
+	        android:id="@+id/activityList"
+	        android:layout_width="150dp"
+	        android:layout_height="match_parent"
+	         android:text="prev act" 
+	        >
+	    </ListView>
+
+	    <Button
+	        android:id="@+id/addButton"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentTop="true"
+	        android:layout_marginLeft="14dp"
+	        android:layout_marginTop="46dp"
+	        android:layout_toRightOf="@+id/activityList"
+	        android:text="Add Activity" />
+
+	    <Button
+	        android:id="@+id/deleteButton"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/addButton"
+	        android:layout_below="@+id/addButton"
+	        android:layout_marginTop="24dp"
+	        android:text="Del Activity" />
+
+	    <EditText
+	        android:id="@+id/durationText"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/deleteButton"
+	        android:layout_alignRight="@+id/deleteButton"
+	        android:layout_below="@+id/deleteButton"
+	        android:layout_marginTop="63dp"
+	        android:ems="10"
+	        android:inputType="number"
+	        android:visibility="invisible" >
+
+	        <requestFocus />
+	    </EditText>
+
+	    <TextView
+	        android:id="@+id/textView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/durationText"
+	        android:layout_below="@+id/deleteButton"
+	        android:layout_marginTop="28dp"
+	        android:text="Enter Duration Time"
+	        android:visibility="invisible" />
+
+	    <Spinner
+	        android:id="@+id/addSpinner"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/durationText"
+	        android:layout_below="@+id/durationText"
+	        android:layout_marginTop="14dp"
+	        android:visibility="invisible" />
+
+	    <Button
+	        android:id="@+id/add"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignRight="@+id/durationText"
+	        android:layout_below="@+id/addSpinner"
+	        android:layout_marginRight="16dp"
+	        android:layout_marginTop="17dp"
+	        android:text="ADD"
+	        android:visibility="invisible" />
+	
+</RelativeLayout>
